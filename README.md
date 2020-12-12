@@ -1,4 +1,4 @@
-**Code Fellows 401 Final Project**
+**Team Zed Penetration Test & Incident Response**
 
 Penetration Testing and Defensive Recommendations</br>
 December 15, 2020
