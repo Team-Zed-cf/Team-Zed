@@ -3,27 +3,49 @@
 Penetration Testing and Defensive Recommendations</br>
 December 15, 2020
 
-## Abstract
-Scenrio - Our team is a small security firm that accepted a new contract to help ABC Corp. test its infrastructure and implement more sophisticated security systems. This is a "purple team" engagement. We were tasked with completing a penetration test, composing relevant deliverables, and presenting the findings to your client. We implemented threat detection and advance malware analysis tools in the environment as part of boosting the client's defenses.
+## Project Overview
+Scenario - Our team is a small security firm that accepted a new contract to help "ABC Corp." test its infrastructure and implement more sophisticated security systems. This is a "purple team" engagement. We were tasked with completing a penetration test, composing relevant deliverables, and presenting the findings to your client. We implemented threat detection and advance malware analysis tools in the environment as part of boosting the client's defenses.
 
 For this scenario, our team was provided access to a unique black box AWS cloud instance for penetration testing.
 
-## Project Overview
+In the final segment of the project week, our team gained access to *Vintage Upholstery & Leather Nationwide Corporation's* systems to implement defensive systems in the environment.
 
 ## Project Links
+[Tem Zed Final Documents](https://drive.google.com/drive/folders/1jVNCq9gw6gccJNmZu4katQDqXDTb58u1?usp=sharing) - a Google Drive Project Folder containing the following documents:
+* Penetration Test Report
+* Threat Intelligence & Incident Response Report
 
 ## Scripts
 
 ## Resources & assets
  
 **Applications**</br>
-
+Oracle VirtualBox</br>
+*Kali Linux 20.20.4 virtual machine*</br>
+Amazon Web Services VPN</br>
+*Windows 7*</br>
+*Win Server 2008*</br>
+*Ubuntu File Server*</br>
+*Ubuntu Web Server*</br>
+Microsoft Threat Modeling Tool</br>
+GitHub</br>
+Google Docs & Slides</br>
  
 **Tools & coding languages**</br>
-
- 
-**Additional resources**</br>
-
+[BurpSuite](https://portswigger.net/burp)</br>
+[CQTools from CQure Academy](https://cqureacademy.com/blog/black-hat-asia-2019-tools)</br>
+[DirBuster](https://tools.kali.org/web-applications/dirbuster#:~:text=DirBuster%20is%20a%20multi%20threaded,pages%20and%20applications%20hidden%20within.)</br>
+[Metasploit](https://www.metasploit.com/)</br>
+[Mimikatz](https://github.com/gentilkiwi/mimikatz)</br>
+[NMap](https://nmap.org/)</br>
+[THC Hydra](https://tools.kali.org/password-attacks/hydra)</br>
+[Python 3.8.6](https://www.python.org/downloads/release/python-386/)</br>
+[Remmina](https://remmina.org/)</br>
+[Tenable Nessus](https://www.tenable.com/)</br>
+[Windows Defender Firewall](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security)</br>
+[Wireshark](https://www.wireshark.org/)</br>
+[ZAP](https://www.zaproxy.org/)</br>
+[YARA](https://yara.readthedocs.io/en/stable/)</b>
 
 ## Team Members
 
@@ -34,7 +56,7 @@ Bubacarr is a Cybersecurity Professional and a Semiconductor Engineering Technic
 [Bubacarr's LinkedIn profile](https://www.linkedin.com/in/bdarboe/)
 
 ### Kim Dills
-About Kim
+Kim is a volunteer at CyberSecurity Non-Profit (CSNP) in the role of Education Manager.  Her passion for learning has led her to discover how to help people stay cyber safe and to become a cybersecurity engineer.
 
 [Kim's GitHub profile](https://github.com/kddills)</br>
 [Kim's LinkedIn profile](https://www.linkedin.com/in/kimberlydills/)
@@ -46,7 +68,7 @@ Courtney is an operations and cybersecurity professional with deep history in th
 [Courtney's LinkedIn profile](https://www.linkedin.com/in/courtney-hans/)
 
 ### Jin Kim
-About Jin
+Jin is a Cloud Security Engineer and his passionate about CI/CD, containerization, and values mentorship. 
 
 [Jin's GitHub profile](https://github.com/jinwoov)</br>
 [Jin's LinkedIn profile](https://www.linkedin.com/in/jinkim808/)
