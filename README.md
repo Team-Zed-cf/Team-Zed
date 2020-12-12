@@ -1,4 +1,4 @@
-**Code Fellows 401 Final Project**
+# Team Zed Penetration Test & Incident Response
 
 Penetration Testing and Defensive Recommendations</br>
 December 15, 2020
@@ -22,6 +22,7 @@ In the final segment of the project week, our team gained access to *Vintage Uph
 **Applications**</br>
 Oracle VirtualBox</br>
 *Kali Linux 20.20.4 virtual machine*</br>
+*Parrot OS virtual machine*  
 Amazon Web Services VPN</br>
 *Windows 7*</br>
 *Win Server 2008*</br>
@@ -68,7 +69,8 @@ Courtney is an operations and cybersecurity professional with deep history in th
 [Courtney's LinkedIn profile](https://www.linkedin.com/in/courtney-hans/)
 
 ### Jin Kim
-Jin is a Cloud Security Engineer and his passionate about CI/CD, containerization, and values mentorship. 
+Jin is aspiring cloud security engineer who's always in search of learn new skills and expand on my knowledge in security. During my software development course, I learned how web application vulnerabilities can be exploited from multiple attack vectors and I found it fascinating. My network then eventually led me to security courses and I learned about creating secure network and also maintaining integrity of data on Cloud. I would love to expand my knowledge in containerization and agile development in the future while continually mentoring others to break into tech scene.
+
 
 [Jin's GitHub profile](https://github.com/jinwoov)</br>
 [Jin's LinkedIn profile](https://www.linkedin.com/in/jinkim808/)
