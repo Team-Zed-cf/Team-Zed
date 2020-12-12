@@ -22,6 +22,7 @@ In the final segment of the project week, our team gained access to *Vintage Uph
 **Applications**</br>
 Oracle VirtualBox</br>
 *Kali Linux 20.20.4 virtual machine*</br>
+*Parrot OS virtual machine*  
 Amazon Web Services VPN</br>
 *Windows 7*</br>
 *Win Server 2008*</br>
