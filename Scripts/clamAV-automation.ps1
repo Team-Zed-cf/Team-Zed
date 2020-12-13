@@ -1,7 +1,7 @@
 
 # Author: Jin Kim
 # Date: 12/13/2020
-# Description: Running the Clam AV by automating the process.
+# Description: Running the Clam AV using the Yara by automating the process.
 
 function interface()
 {
