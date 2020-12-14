@@ -15,7 +15,11 @@ In the final segment of the project week, our team gained access to *Vintage Uph
 * Penetration Test Report
 * Threat Intelligence & Incident Response Report
 
-## Scripts
+## Scripts and rules
+[Malware Scan](Scripts/malware_scan) - [Jin Kim](https://github.com/jinwoov)</br>
+[Pcap Parser](Scripts/pcap_parse.py) - [Courtney Hans](https://github.com/CourtHans)</br>
+[Snort rules](Scripts/snort.rules) - [Bubacarr Darboe](https://github.com/bdarboe)</br>
+[Yara Rule Project](Scripts/YaraRuleProject.yar), [YaraRule2](Scripts/YaraRule2.yar), [YaraRule3](YaraRule3.yar) - [Kim Dills](https://github.com/kddills)</br>
 
 ## Resources & assets
  
