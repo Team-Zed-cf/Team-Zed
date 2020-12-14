@@ -17,6 +17,7 @@ In the final segment of the project week, our team gained access to *Vintage Uph
 
 ## Scripts and rules
 [Malware Scan](Scripts/malware_scan) - [Jin Kim](https://github.com/jinwoov)</br>
+This script aims to scan for the malware using the VirusTotal API and hash value from of the file. The response from the API will determine if the file has malware.  
 [Pcap Parser](Scripts/pcap_parse.py) - [Courtney Hans](https://github.com/CourtHans)</br>
 [Snort rules](Scripts/snort.rules) - [Bubacarr Darboe](https://github.com/bdarboe)</br>
 [Yara Rule Project](Scripts/YaraRuleProject.yar), [YaraRule2](Scripts/YaraRule2.yar), [YaraRule3](YaraRule3.yar) - [Kim Dills](https://github.com/kddills)</br>
@@ -73,7 +74,7 @@ Courtney is an operations and cybersecurity professional with deep history in th
 [Courtney's LinkedIn profile](https://www.linkedin.com/in/courtney-hans/)
 
 ### Jin Kim
-Jin is aspiring cloud security engineer who's always in search of learn new skills and expand on my knowledge in security. During my software development course, I learned how web application vulnerabilities can be exploited from multiple attack vectors and I found it fascinating. My network then eventually led me to security courses and I learned about creating secure network and also maintaining integrity of data on Cloud. I would love to expand my knowledge in containerization and agile development in the future while continually mentoring others to break into tech scene.
+Jin is an aspiring cloud security engineer who's always in search of learn new skills and expand on my knowledge in security. During my software development course, I learned how web application vulnerabilities can be exploited from multiple attack vectors and I found it fascinating. My network then eventually led me to security courses and I learned about creating secure network and also maintaining integrity of data on Cloud. I would love to expand my knowledge in containerization and agile development in the future while continually mentoring others to break into tech scene.
 
 
 [Jin's GitHub profile](https://github.com/jinwoov)</br>
