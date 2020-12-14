@@ -19,6 +19,7 @@ In the final segment of the project week, our team gained access to *Vintage Uph
 [Malware Scan](Scripts/malware_scan) - [Jin Kim](https://github.com/jinwoov)</br>
 This script aims to scan for the malware using the VirusTotal API and hash value from of the file. The response from the API will determine if the file has malware.  
 [Pcap Parser](Scripts/pcap_parse.py) - [Courtney Hans](https://github.com/CourtHans)</br>
+This script makes pcap investigation more efficient by taking in parameters that an investigator deems "important" and combing through a pcap file to return an assessment in the terminal of how many packets meet that criteria.
 [Snort rules](Scripts/snort.rules) - [Bubacarr Darboe](https://github.com/bdarboe)</br>
 [Yara Rule Project](Scripts/YaraRuleProject.yar), [YaraRule2](Scripts/YaraRule2.yar), [YaraRule3](YaraRule3.yar) - [Kim Dills](https://github.com/kddills)</br>
 
@@ -41,12 +42,17 @@ Google Docs & Slides</br>
 [BurpSuite](https://portswigger.net/burp)</br>
 [CQTools from CQure Academy](https://cqureacademy.com/blog/black-hat-asia-2019-tools)</br>
 [DirBuster](https://tools.kali.org/web-applications/dirbuster#:~:text=DirBuster%20is%20a%20multi%20threaded,pages%20and%20applications%20hidden%20within.)</br>
+[Maltego](https://www.maltego.com/)
 [Metasploit](https://www.metasploit.com/)</br>
 [Mimikatz](https://github.com/gentilkiwi/mimikatz)</br>
 [NMap](https://nmap.org/)</br>
 [THC Hydra](https://tools.kali.org/password-attacks/hydra)</br>
+[PowerShell ISE](https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/exploring-the-windows-powershell-ise?view=powershell-7.1)
 [Python 3.8.6](https://www.python.org/downloads/release/python-386/)</br>
 [Remmina](https://remmina.org/)</br>
+[Security Onion](https://securityonionsolutions.com/)
+[Snort](https://www.snort.org/)
+[Splunk](https://www.splunk.com/en_us)
 [Tenable Nessus](https://www.tenable.com/)</br>
 [Windows Defender Firewall](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-firewall/windows-firewall-with-advanced-security)</br>
 [Wireshark](https://www.wireshark.org/)</br>
