@@ -1,0 +1,13 @@
+# Rules to check for incoming traffic: RDP, ICMP - ping, Telnet, Browsing.
+alert tcp $EXTERNAL_NET any -> $HOME_NET 21 (msg:"Incoming FTP connection!"; flags:S; sid:10000;)
+alert tcp any any -> any 3389 (msg:"RDP connection attempt"; sid:1000001; rev:1;)
+alert icmp any any -> $HOME_NET any (msg:"ICMP connection attempt"; sid:1000002; rev:1;)
+alert tcp any any -> $HOME_NET 80 (msg:"TELNET connection attempt"; sid:1000003; rev:1;)
+alert tcp any any -> $HOME_NET [139, 445] (msg:"TELNET connection attempt"; sid:1000003; rev:1;)
+alert tcp any any -> $HOME_NET 22 (msg:"SSH connection attempt"; sid:1000004; rev:1;)
+
+#Alerting attempted connections to ports 8000s and 9200
+alert tcp any any -> $HOME_NET [8080,8282,8383,8484,8585,9200] (msg:"Ports 8000s connection attempt"; sid:1000005; rev:1;)
+
+#Rules: alerts for possible virus attacks.
+alert tcp $HOME_NET any -> $EXTERNAL_NET 25 (msg:"VIRUS OUTBOUND bad file attachment"; flow:to_server,established; content:"Content-Disposition|3A|"; nocase; pcre:"/filename\s*=\s*.*?\.(?=[abcdehijlmnoprsvwx])(a(d[ep]|s[dfx])|c([ho]m|li|md|pp)|d(iz|ll|ot)|e(m[fl]|xe)|h(lp|sq|ta)|jse?|m(d[abew]|s[ip])|p(p[st]|if|[lm]|ot)|r(eg|tf)|s(cr|[hy]s|wf)|v(b[es]?|cf|xd)|w(m[dfsz]|p[dmsz]|s[cfh])|xl[tw]|bat|ini|lnk|nws|ocx)[\x27\x22\n\r\s]/iR"; classtype:suspicious-filename-detect; sid:721; rev:8;)
