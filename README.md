@@ -11,13 +11,13 @@ For this scenario, our team was provided access to a unique black box AWS cloud 
 In the final segment of the project week, our team gained access to *Vintage Upholstery & Leather Nationwide Corporation's* systems to implement defensive systems in the environment.
 
 ## Project Links
-[Tem Zed Final Documents](https://drive.google.com/drive/folders/1jVNCq9gw6gccJNmZu4katQDqXDTb58u1?usp=sharing) - a Google Drive Project Folder containing the following documents:
+[Team Zed Final Documents](https://drive.google.com/drive/folders/1jVNCq9gw6gccJNmZu4katQDqXDTb58u1?usp=sharing) - a Google Drive Project Folder containing the following documents:
 * Penetration Test Report
 * Threat Intelligence & Incident Response Report
 
 ## Scripts and rules
-[Malware Scan](Scripts/malware_scan) - [Jin Kim](https://github.com/jinwoov)</br>
-This script aims to scan for the malware using the VirusTotal API and hash value from of the file. The response from the API will determine if the file has malware.  
+[Malware Scan](Scripts/malware_scan), [ClamAV w/ Yara integration](Scripts/clamAV-automation.ps1) - [Jin Kim](https://github.com/jinwoov)</br>
+This script aims to scan for the malware using the VirusTotal API and hash value from of the file. The response from the API will determine if the file has malware. Additionally, Yara rule is ran against the file to further validate if it has malware.  
 
 [Pcap Parser](Scripts/pcap_parse.py) - [Courtney Hans](https://github.com/CourtHans)</br>
 This script makes pcap investigation more efficient by taking in parameters that an investigator deems "important" and combing through a pcap file to return an assessment in the terminal of how many packets meet that criteria.
