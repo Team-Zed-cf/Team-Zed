@@ -25,7 +25,7 @@ This script makes pcap investigation more efficient by taking in parameters that
 [Snort rules](Scripts/snort.rules) - [Bubacarr Darboe](https://github.com/bdarboe)</br>
 This scripts monitor the activities on the network and generate alerts of unauthorized activities. The alerts will depend on the rules that were specified in the snort file.
 
-[Yara Rule Project](Scripts/YaraRuleProject.yar), [YaraRule2](Scripts/YaraRule2.yar), [YaraRule3](YaraRule3.yar) - [Kim Dills](https://github.com/kddills)</br>
+[Yara Rule Project](Scripts/YaraRuleProject.yar), [YaraRule2](Scripts/YaraRule2.yar), [YaraRule3](Scripts/YaraRule3.yar) - [Kim Dills](https://github.com/kddills)</br>
 YARA rules written and configured to scan for known malware keywords to detect against advanced malware from entering and spreading on the network.
 
 ## Resources & assets
